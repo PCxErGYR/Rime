@@ -1,0 +1,8 @@
+# Rime user dictionary
+#@/db_name	easy_en.userdb
+#@/db_type	userdb
+#@/rime_version	1.3.0
+#@/tick	2
+#@/user_id	0a3dbf30-e807-4a12-8e60-e65129d512bc
+github 	GitHub	c=1 d=1 t=2
+windows phone 	Windows Phone	c=1 d=1 t=1

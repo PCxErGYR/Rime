@@ -1,0 +1,84 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: wubi86
+  name: "五笔86"
+  version: "0.21"
+  author:
+    - 發明人 王永民先生
+  description: |
+    五筆字型86版
+    碼表源自 ibus-table
+    敲 z 鍵進入拼音反查
+  dependencies:
+    - pinyin_simp
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+    - script_translator@english
+    - fluid_editor
+    - echo_translator      # ※ 沒有其他候選字時，回顯輸入碼
+english:
+  dictionary: easy_en
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 0
+  spelling_hints: 9
+
+speller:
+  delimiter: " ;'"
+  #max_code_length: 4
+  auto_select_unique_candidate: true  #无重码自动上屏
+  
+
+translator:
+  dictionary: wubi86.extended
+  enable_completion: true 
+  enable_charset_filter: true
+  enable_sentence: true
+  enable_encoder: true
+  encode_commit_history: true
+  #max_phrase_length: 4
+  disable_user_dict_for_patterns:
+    - "^z.*$"
+    - ^[a-y]{1,2}$
+
+reverse_lookup:
+  dictionary: pinyin_simp
+  prefix: "z"
+  suffix: "'"
+  tips: ""
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "^z[a-z]*'?$"
