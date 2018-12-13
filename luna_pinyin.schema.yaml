@@ -1,34 +1,15 @@
-# Rime schema
-# encoding: utf-8
-
-schema:
-  schema_id: luna_pinyin
-  name: 朙月拼音
-  version: "0.24"
-  author:
-    - 佛振 <chen.sst@gmail.com>
-  description: |
-    Rime 預設的拼音輸入方案。
-    參考以下作品而創作：
-      * CC-CEDICT
-      * Android open source project
-      * Chewing - 新酷音
-      * opencc - 開放中文轉換
-  dependencies:
-    - stroke
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
-  - name: simplification
-    states: [ 漢字, 汉字 ]
-  - name: ascii_punct
-    states: [ 。，, ．， ]
-
+custom_phrase:
+  db_class: stabledb
+  dictionary: ""
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+  user_dict: custom_phrase
+customization: 502685453
 engine:
+  filters:
+    - simplifier
+    - uniquifier
   processors:
     - ascii_composer
     - recognizer
@@ -46,65 +27,104 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - table_translator@custom_phrase
+    - "table_translator@custom_phrase"
     - reverse_lookup_translator
     - script_translator
-  filters:
-    - simplifier
-    - uniquifier
-
-speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
-  delimiter: " '"
-  algebra:
-    - erase/^xx$/
-    - abbrev/^([a-z]).+$/$1/
-    - abbrev/^([zcs]h).+$/$1/
-    - derive/^([nl])ve$/$1ue/
-    - derive/^([jqxy])u/$1v/
-    - derive/un$/uen/
-    - derive/ui$/uei/
-    - derive/iu$/iou/
-    - derive/([aeiou])ng$/$1gn/
-    - derive/([dtngkhrzcs])o(u|ng)$/$1o/
-    - derive/ong$/on/
-    - derive/ao$/oa/
-    - derive/([iu])a(o|ng?)$/a$1$2/
-
-translator:
-  dictionary: luna_pinyin
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
-
-custom_phrase:
-  dictionary: ""
-  user_dict: custom_phrase
-  db_class: stabledb
+    - "table_translator@english"
+english:
+  dictionary: easy_en
   enable_completion: false
   enable_sentence: false
-  initial_quality: 1
-
-reverse_lookup:
-  dictionary: stroke
-  enable_completion: true
-  prefix: "`"
-  suffix: "'"
-  tips: 〔筆畫〕
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
-  comment_format:
-    - xform/([nl])v/$1ü/
-
-punctuator:
-  import_preset: symbols
-
+  initial_quality: "-2"
+  spelling_hints: 9
 key_binder:
   import_preset: default
-
+punctuator:
+  half_shape:
+    "#": "#"
+    "$": ["¥", "$", "€", "£", "¢", "¤"]
+    "'": {pair: ["「", "」"]}
+    "*": "*"
+    "/": ["/", "÷"]
+    "<": ["《", "〈", "«", "<"]
+    "=": "="
+    ">": ["》", "〉", "»", ">"]
+    "@": "@"
+    "[": ["【", "["]
+    "\\": "、"
+    "]": ["】", "]"]
+    _: "──"
+    "`": "`"
+    "~": "~"
+  import_preset: symbols
+  symbols:
+    "/bq": ["😂️", "😅️", "☺️", "😱️", "😭️", "😇️", "🙃️", "🤔️", "💊️", "💯️", "👍️", "🙈️", "💩️", "😈️"]
+    "/dn": ["⌘", "⌥", "⇧", "⌃", "⎋", "⇪", "", "⌫", "⌦", "↩︎", "⏎", "↑", "↓", "←", "→", "↖", "↘", "⇟", "⇞"]
+    "/fh": ["©", "®", "℗", "℠", "™", "℡", "ⓘ", "♂", "♀", "☉", "☊", "☋", "☌", "☍", "☐", "☑︎", "☒", "☜", "☝", "☞", "☟", "✎", "✄", "♲", "♻", "⚐", "⚑", "⚠"]
+    "/fs": ["½", "‰", "¼", "⅓", "⅔", "¾", "⅒"]
+    "/xh": ["＊", "×", "✱", "★", "☆", "✩", "✧", "❋", "❊", "❉", "❈", "❅", "✿", "✲"]
 recognizer:
   import_preset: default
   patterns:
-    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    punct: "^/([a-z]+|[0-9]0?)$"
     reverse_lookup: "`[a-z]*'?$"
+reverse_lookup:
+  comment_format:
+    - "xform/([nl])v/$1ü/"
+  dictionary: stroke
+  enable_completion: true
+  preedit_format:
+    - "xlit/hspnz/一丨丿丶乙/"
+  prefix: "`"
+  suffix: "'"
+  tips: "〔筆畫〕"
+schema:
+  author:
+    - "佛振 <chen.sst@gmail.com>"
+  dependencies:
+    - stroke
+    - easy_en
+  description: |
+    Rime 預設的拼音輸入方案。
+    參考以下作品而創作：
+      * CC-CEDICT
+      * Android open source project
+      * Chewing - 新酷音
+      * opencc - 開放中文轉換
+    
+  name: "朙月拼音"
+  schema_id: luna_pinyin
+  version: 0.24.custom.502685453
+speller:
+  algebra:
+    - "xform/^([b-df-hj-np-tv-z])$/$1_/"
+    - "erase/^xx$/"
+    - "derive/^([nl])ve$/$1ue/"
+    - "derive/^([jqxy])u/$1v/"
+    - "derive/un$/uen/"
+    - "derive/ui$/uei/"
+    - "derive/iu$/iou/"
+    - "derive/([aeiou])ng$/$1gn/"
+    - "derive/([dtngkhrzcs])o(u|ng)$/$1o/"
+    - "derive/ong$/on/"
+    - "derive/ao$/oa/"
+    - "derive/([iu])a(o|ng?)$/a$1$2/"
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    states: ["半角", "全角"]
+  - name: simplification
+    reset: 0
+    states: ["漢字", "汉字"]
+  - name: ascii_punct
+    states: ["。，", "．，"]
+translator:
+  dictionary: luna_pinyin.extended
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"

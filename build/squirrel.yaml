@@ -1,0 +1,122 @@
+__build_info:
+  rime_version: 1.3.0
+  timestamps:
+    squirrel: 1544691304
+    squirrel.custom: 1544691803
+app_options:
+  ccom.tencent.xinWeChat:
+    {}
+  com.apple.Spotlight:
+    ascii_mode: true
+    no_inline: false
+  com.apple.dt.Xcode:
+    ascii_mode: true
+  com.macromates.TextMate.preview:
+    ascii_mode: true
+  com.microsoft.VSCode:
+    ascii_mode: true
+  "com.runningwithcrayons.Alfred-3":
+    ascii_mode: true
+  com.tencent.qq:
+    {}
+  com.tinyapp.TablePlus:
+    ascii_mode: true
+  org.eclipse.platform.ide:
+    ascii_mode: true
+  org.vim.MacVim:
+    ascii_mode: true
+    no_inline: false
+chord_duration: 0.1
+config_version: 0.30
+preset_color_schemes:
+  dark:
+    alpha: 0.98
+    author: "kun.peng@outlook.my<http://imhow.org>"
+    back_color: 0x2E2E2E
+    border_color: 0xF1F0E
+    border_height: 1
+    border_width: 1
+    candidate_format: "%c %@"
+    candidate_text_color: 0xd8e3e6
+    comment_text_color: 0x606cff
+    corner_radius: 5
+    font_face: PingFangSC
+    font_point: 16
+    hilited_back_color: 0x222222
+    hilited_candidate_back_color: 0xE16300
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x2D41F7
+    hilited_corner_radius: 0
+    hilited_text_color: 0xffcf9a
+    horizontal: true
+    inline_preedit: true
+    label_color: 0x7D7C7B
+    label_font_face: "SFCompactText-Regular"
+    label_font_point: 13
+    name: "系统黑1"
+    "style/spacing": 5
+    text_color: 0xFFFFFF
+  sys_dark:
+    alpha: 0.98
+    author: "kun.peng@outlook.my<http://imhow.org>"
+    back_color: 0x2E2E2E
+    border_color: 0xF1F0E
+    border_height: 5
+    border_width: 5
+    candidate_format: "%c %@"
+    candidate_text_color: 0xd8e3e6
+    comment_text_color: 0x2D64F9
+    corner_radius: 5
+    font_face: PingFangSC
+    font_point: 16
+    hilited_back_color: 0x0000FF
+    hilited_candidate_back_color: 0xE16300
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x2D41F7
+    hilited_corner_radius: 3
+    hilited_text_color: 0x000099
+    horizontal: true
+    inline_preedit: true
+    label_color: 0x7D7C7B
+    label_font_face: "SFCompactText-Regular"
+    label_font_point: 13
+    name: "系统黑2"
+    "style/spacing": 5
+    text_color: 0xFFFFFF
+  system_blue:
+    author: "scomper <scomper@gmail.com>"
+    back_color: 0xFFFFFF
+    border_color: 0xE0B693
+    border_color_width: 0
+    border_height: 6
+    border_width: 6
+    candidate_format: "%c %@ "
+    candidate_text_color: 0x000000
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_point: 16
+    hilited_back_color: 0xfff0e3
+    hilited_candidate_label_color: 0x999999
+    hilited_candidate_text_color: 0x000000
+    hilited_comment_text_color: 0x999999
+    hilited_corner_radius: 3
+    hilited_text_color: 0x999999
+    horizontal: true
+    inline_preedit: true
+    label_color: 0x999999
+    label_font_face: "SFCompactText-Regular"
+    label_font_point: 14
+    name: "系统蓝／System Blue"
+    text_color: 0x424242
+show_notifications_when: appropriate
+style:
+  border_height: 0
+  border_width: 0
+  color_scheme: sys_dark
+  corner_radius: 10
+  font_face: "Lucida Grande"
+  horizontal: false
+  inline_preedit: true
+  line_spacing: 5
+  spacing: 10
+us_keyboard_layout: false
