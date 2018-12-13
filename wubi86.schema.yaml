@@ -19,7 +19,7 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder
-    - speller
+    - speller 
     - punctuator
     - selector
     - navigator
