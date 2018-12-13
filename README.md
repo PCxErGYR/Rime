@@ -1,9 +1,4 @@
 # Rime 五笔
-鼠须管配置文件
-具体的调教和配置可以阅读 https://scomper.me/gtd/-shu-xu-guan-de-diao-jiao-bi-ji
-----
-鼠须管项目访问 https://github.com/rime/squirrel
-原始的输入方案文件 https://github.com/rime/plum
 
 # 说明
 1. 添加Emoji表情的选择
@@ -17,9 +12,14 @@
 在macOS上某些APP不是单行显示的情况，具体请看`squirrel.custom.yaml`中`app_options`。
 
 # 待完善
+> 如果有解决方案的请告诉我,谢谢。
 1. 中英混输入时英文和汉字之间用一个空格分割
 2. 中英混输时有空格的英文短语无法和中文混输，如：`Spring Boot是什么`,目前解决是先选择`Spring Boot`后再选择选择`是什么`
-
+# 参考
+具体的调教和配置可以阅读 https://scomper.me/gtd/-shu-xu-guan-de-diao-jiao-bi-ji
+----
+鼠须管项目访问 https://github.com/rime/squirrel
+原始的输入方案文件 https://github.com/rime/plum
 # 截图
 1. 添加Emoji表情的选择
 
