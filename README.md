@@ -1,14 +1,16 @@
 # Rime 五笔
+
 # 说明
 1. 添加Emoji表情的选择
     [opencc-emoje](https://github.com/rime/rime-emoji/tree/master/opencc)
-2. 添加 `custom_phrase.txt` 选取，可在`custom_phrase.txt`中定义自己常用的短语
+2. 添加 `custom_phrase.txt` 选取，可在`custom_phrase.txt`中定义自己常用的短语
 3. 添加中英混输
 4. 五笔方案中可自动造词
-5. 可调整词频(`"^[a-y]{1,2}$`),正则：当输入`1-2`个编码是`a`到`y`中的时，不进行高频。6. 添加自定义主题`dark`、`sys_dark`
+5. 可调整词频(`"^[a-y]{1,2}$`),正则：当输入`1-2`个编码是`a`到`y`中的时，不进行调频。
+6. 添加自定义主题`dark`、`sys_dark`
 
 # 修正
-在macOS上某些APP不是单行显示的情况，具体请看`squirrel.custom.yaml`中`app_options`。
+在macOS上某些APP不是单行显示的情况，具体请看`squirrel.custom.yaml`中`app_options`。
 
 # 待完善
 > 如果有解决方案的请告诉我,谢谢。
@@ -54,13 +56,14 @@
 # 说明
 1. 添加Emoji表情的选择
     [opencc-emoje](https://github.com/rime/rime-emoji/tree/master/opencc)
-2. 添加 `custom_phrase.txt` 选取，可在`custom_phrase.txt`中定义自己常用的短语
+2. 添加 `custom_phrase.txt` 选取，可在`custom_phrase.txt`中定义自己常用的短语
 3. 添加中英混输
 4. 五笔方案中可自动造词
-5. 可调整词频(`"^[a-y]{1,2}$`),正则：当输入`1-2`个编码是`a`到`y`中的时，不进行高频。6. 添加自定义主题`dark`、`sys_dark`
+5. 可调整词频(`"^[a-y]{1,2}$`),正则：当输入`1-2`个编码是`a`到`y`中的时，不进行调频。
+6. 添加自定义主题`dark`、`sys_dark`
 
 # 修正
-在macOS上某些APP不是单行显示的情况，具体请看`squirrel.custom.yaml`中`app_options`。
+在macOS上某些APP不是单行显示的情况，具体请看`squirrel.custom.yaml`中`app_options`。
 
 # 待完善
 > 如果有解决方案的请告诉我,谢谢。
@@ -95,9 +98,3 @@
 [5QuvrX.png](https://s1.ax2x.com/2018/12/13/5QuvrX.png)
 ![5Quyil.png](https://s1.ax2x.com/2018/12/13/5Quyil.png)
 [![5QuamJ.md.png](https://s1.ax2x.com/2018/12/13/5QuamJ.md.png)](https://imgse.com/i/5QuamJ)
-
-
-
-
-
-
