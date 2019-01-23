@@ -10,4 +10,7 @@ kun.peng@outlook.ie	email
 kun.peng@yahoo.com	ymail
 google.com	google
 imhow.org	imhow
+google.com	www
+duckduckgo.com	www
+github.com	git
 

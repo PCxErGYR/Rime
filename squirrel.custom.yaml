@@ -1,6 +1,6 @@
 patch:
   show_notifications_when: appropriate          # 状态通知，适当，也可设为全开（always）全关（never）
-  style/color_scheme: sys_dark                  # 启用配色方案
+  style/color_scheme: sys_dark                 # 启用配色方案
   preset_color_schemes:
     system_blue:
       author: "scomper <scomper@gmail.com>"     # 作者信息
@@ -70,12 +70,12 @@ patch:
       inline_preedit: true                      # 单行显示，false双行显示
       horizontal: true                          # 水平排列
       candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-      corner_radius: 5                          # 候选条圆角
-      border_height: 2
-      border_width: 2
+      corner_radius: 3                          # 候选条圆角
+      border_height: 3
+      border_width: 3
       border_color: 0xF1F0E
       font_face: "PingFangSC"                   # 候选词字体
-      font_point: 16                            # 候选字词大小
+      font_point: 18                            # 候选字词大小
       label_font_face: "SFCompactText-Regular"  # 候选词编号字体
       label_font_point: 13                      # 候选编号大小
       hilited_text_color: 0x8BB66C              # 编码前景色
