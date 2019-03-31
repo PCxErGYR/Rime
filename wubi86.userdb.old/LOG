@@ -1,0 +1,5 @@
+2019/03/10-10:48:43.646670 7000002db000 Log #33: 0 ops saved to Table #35 OK
+2019/03/10-10:48:43.646876 7000002db000 Archiving /Users/kun/Library/Rime/wubi86.userdb/000033.log: OK
+2019/03/10-10:48:43.646952 7000002db000 Table #34: 29 entries OK
+2019/03/10-10:48:43.647260 7000002db000 Archiving /Users/kun/Library/Rime/wubi86.userdb/MANIFEST-000031: OK
+2019/03/10-10:48:43.647886 7000002db000 **** Repaired leveldb /Users/kun/Library/Rime/wubi86.userdb; recovered 1 files; 1122 bytes. Some data may have been lost. ****

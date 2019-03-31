@@ -1,11 +1,15 @@
 __build_info:
-  rime_version: 1.3.0
+  rime_version: 1.4.0
   timestamps:
-    default: 1543916460
-    default.custom: 1544359724
-    double_pinyin_flypy.custom: 1544191014
-    double_pinyin_flypy.schema: 1544542948
-    symbols: 1544191014
+    default: 1548171029
+    default.custom: 1552404103
+    double_pinyin_flypy.custom: 1552186041
+    double_pinyin_flypy.schema: 1552186041
+    key_bindings: 1548171029
+    key_bindings.custom: 0
+    punctuation: 1548171029
+    punctuation.custom: 0
+    symbols: 1552186041
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -86,8 +90,6 @@ key_binder:
     - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
   import_preset: default
 menu:
   page_size: 8

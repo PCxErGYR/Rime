@@ -12,5 +12,6 @@ google.com	google
 imhow.org	imhow
 google.com	www
 duckduckgo.com	www
-github.com	git
+imkun.dev	imkun
+imkun.dev	dev
 
