@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.4.0
   timestamps:
     squirrel: 1548171029
-    squirrel.custom: 1552186041
+    squirrel.custom: 1554481370
 app_options:
   ccom.tencent.xinWeChat:
     {}
@@ -11,6 +11,12 @@ app_options:
     no_inline: false
   com.apple.dt.Xcode:
     ascii_mode: true
+  com.apple.finder:
+    ascii_mode: true
+    no_inline: false
+  "com.binarynights.ForkLift-3":
+    ascii_mode: true
+    no_inline: false
   com.googlecode.iterm2:
     ascii_mode: true
   com.macromates.TextMate.preview:
@@ -25,6 +31,9 @@ app_options:
     ascii_mode: true
   com.vandyke.SecureCRT:
     ascii_mode: true
+  io.alacritty:
+    ascii_mode: true
+    no_inline: false
   org.eclipse.platform.ide:
     ascii_mode: true
   org.vim.MacVim:
@@ -42,16 +51,16 @@ preset_color_schemes:
     border_width: 1
     candidate_format: "%c %@"
     candidate_text_color: 0xd8e3e6
-    comment_text_color: 0x606cff
+    comment_text_color: 0x2D64F9
     corner_radius: 5
     font_face: PingFangSC
     font_point: 16
-    hilited_back_color: 0x0000FF
+    hilited_back_color: 0x222222
     hilited_candidate_back_color: 0xE16300
     hilited_candidate_text_color: 0xFFFFFF
     hilited_comment_text_color: 0x2D41F7
     hilited_corner_radius: 0
-    hilited_text_color: 0x8BB66C
+    hilited_text_color: 0xffcf9a
     horizontal: true
     inline_preedit: true
     label_color: 0x7D7C7B
