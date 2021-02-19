@@ -1,6 +1,6 @@
 # Rime
 鼠须管配置文件
-具体的调教和配置阅读 [鼠须管调教笔记](https://scomper.me/gtd/-shu-xu-guan-de-diao-jiao-bi-ji)
+参考 [鼠须管调教笔记](https://scomper.me/gtd/-shu-xu-guan-de-diao-jiao-bi-ji)
 
 ----
 添加输入方案 [/plum/](https://github.com/rime/plum)
@@ -12,6 +12,12 @@
  [![GitHub Tag](https://img.shields.io/github/tag/rime/squirrel.svg)](https://github.com/rime/squirrel)
 
 # 介绍
+## 安装
+1. 下载鼠须管
+2. 安装
+```sh
+git clone https://github.com/RVK4NP3N6/Rime.git /Users/用户名/Library/Rime
+```
 ## 特点(feature)
 1. 支持拼音、五笔86、五笔拼音、数字(转人民币的填写)
 2. 支持表情输入
@@ -20,6 +26,7 @@
 5. 支持自定义常用短语(custom_phrase)
 6. Macos自动切换主题
 7. 扩展五笔词库，常用地点及常用编程词库
+
 
 ## 截图(screenshots)
 [![Rime](https://raw.githubusercontent.com/RVK4NP3N6/Rime/master/screenshots/rime.png)](Rime)
