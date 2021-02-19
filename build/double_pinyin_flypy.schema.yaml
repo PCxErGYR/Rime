@@ -1,15 +1,15 @@
 __build_info:
-  rime_version: 1.4.0
+  rime_version: 1.7.3
   timestamps:
-    default: 1548171029
-    default.custom: 1552404103
-    double_pinyin_flypy.custom: 1552186041
-    double_pinyin_flypy.schema: 1552186041
-    key_bindings: 1548171029
+    default: 1613228859
+    default.custom: 1613742306
+    double_pinyin_flypy.custom: 1612241289
+    double_pinyin_flypy.schema: 1612241289
+    key_bindings: 1612241289
     key_bindings.custom: 0
-    punctuation: 1548171029
+    punctuation: 1612241289
     punctuation.custom: 0
-    symbols: 1552186041
+    symbols: 1612241289
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -18,7 +18,6 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
-customization: 3912953408
 emoji_conversion:
   opencc_config: emoji.json
   option_name: show_emoji
@@ -50,13 +49,14 @@ engine:
     - reverse_lookup_translator
     - script_translator
     - "table_translator@english"
-    - "table_translator@english"
     - "table_translator@custom_phrase"
+    - "lua_translator@date_translator"
+    - "lua_translator@time_translator"
 english:
   dictionary: easy_en
   enable_completion: false
   enable_sentence: false
-  initial_quality: 0
+  initial_quality: "-4"
   spelling_hints: 9
 key_binder:
   bindings:
@@ -92,7 +92,7 @@ key_binder:
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
   import_preset: default
 menu:
-  page_size: 8
+  page_size: 6
 punctuator:
   full_shape:
     " ": {commit: "　"}
@@ -367,7 +367,7 @@ recognizer:
   import_preset: default
   patterns:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
-    punct: "^/([a-z]+|[0-9]0?)$"
+    punct: "^/([0-9]0?|[A-Za-z]+)$"
     reverse_lookup: "`[a-z]*'?$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
@@ -393,7 +393,7 @@ schema:
     
   name: "小鶴雙拼"
   schema_id: double_pinyin_flypy
-  version: 0.18.custom.3912953408
+  version: 0.18
 simplifier:
   option_name: zh_simp
 speller:
@@ -439,8 +439,6 @@ switches:
   - name: zh_simp
     reset: 1
     states: ["漢字", "汉字"]
-  - name: ascii_punct
-    states: ["。，", "．，"]
   - options: [utf8, gbk, gb2312]
     reset: 0
     states: ["UTF-8", GBK, GB2312]

@@ -1,9 +1,10 @@
+# 双拼使用自定义词典 custom_phrase.txt
 custom_phrase:
   db_class: stabledb
   dictionary: ""
   enable_completion: false
   enable_sentence: false
-  initial_quality: 1
+  initial_quality: 10
   user_dict: custom_phrase
 customization: 1298075945
 emoji_conversion:
@@ -37,6 +38,9 @@ engine:
     - "script_translator@english"
     - "table_translator@custom_phrase"
     - echo_translator
+    - "lua_translator@date_translator"
+    - "lua_translator@time_translator"
+    - "lua_translator@week_translator"
 english:
   dictionary: easy_en
   enable_completion: false

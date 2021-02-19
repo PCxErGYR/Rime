@@ -33,6 +33,7 @@ Android	android
 Annotable	annotable
 AnyConnect	anyconnect
 AnyDrop	anydrop
+App Clips	app clips
 AOL	aol
 APFS	apfs
 APFS	ge shi hua
@@ -54,6 +55,8 @@ Baskerville	baskerville
 BBC	bbc
 BFR	bfr
 BigCaslon	bigcaslon
+Big Sur	big sur
+Bitcron	bitcron
 BlackBerry	black berry
 BMP	bmp
 Bodoni	bodoni
@@ -73,6 +76,7 @@ Cortana	cortana
 CPU	cpu
 Curio	curio
 Cydia	cydia
+CentOS	centos
 Devanagari	devanagari
 DFU	dfu
 DHCP	dhcp
@@ -87,8 +91,9 @@ Due	due
 DVD	dvd
 DVI	dvi
 EarPods	earpods
-EdgePoint	edge	point
-EdgeSwitch	edge	switch
+Elpass	elpass
+EdgePoint	edge point
+EdgeSwitch	edge switch
 eDRAM	edram
 EDXOR	edxor
 Emacs	emacs
@@ -121,7 +126,8 @@ GPU	gpu
 Graffle	graffle
 GRE	gre
 GSM	gsm
-GUI	gui
+GaN	g an
+GUI	g u i
 Gujarati	gujarati
 Gurmukhi	gurmukhi
 Hangouts	hangouts
@@ -156,6 +162,7 @@ IP	ip
 iPack	ipack
 IPN	ipn
 IPS	ips
+iPerf	iperf
 iSight	isight
 iTerm	iterm
 jEdit	jedit
@@ -197,6 +204,7 @@ Moke	moke
 Moom	moom
 Mountie	mountie
 Moves	moves
+MariaDB	maria
 Movist	movist
 Mozilla	mozilla
 MPlayer	mplayer
@@ -297,7 +305,7 @@ Trello	trello
 TRUE	true
 TTL	ttl
 Tumblr	tumblr
-TUN	tun
+TUN	t u n
 Twitter	twitter
 Typora	typora
 UAP	uap
@@ -319,7 +327,6 @@ VLC	vlc
 VMware	vmware
 VoLTE	volte
 VPN	vpn
-VR	vr
 Waltr	waltr
 Waseem	waseem
 WCDMA	wcdma
@@ -359,11 +366,10 @@ Airmail	air mail
 airMAX	air max
 AirPlay	air play
 AirPods	air pods
+AirPods Pro	air pods
 AirPort	air port
 AirPort Express	air port
-AirPort Express	air port express
 AirPort Extreme	air port
-AirPort Extreme	air port extreme
 AirPower	air power
 AirPrint	air print
 airPrism	air prism
@@ -371,7 +377,7 @@ AirServer	air server
 Al Nile	alnile
 Al Tarikh	altarikh
 Alphabet	alpha bet
-Amazon Cloud Drive	amazon cloud drive
+Amazon Cloud Drive	acd
 Amazon Fire	amazon fire
 AmazonBasics	amazon basics
 AMOLED	amoled
@@ -386,7 +392,7 @@ Apple Chancery	apple chancery
 Apple Configurator	apple configurator
 Apple Developer	apple developer
 Apple EarPods	apple earpods
-Apple File System	apple file system
+Apple File System	apfs
 Apple ID	apple id
 Apple Lossless	apple lossless
 Apple Music	apple music
@@ -396,17 +402,13 @@ Apple Pencil	apple pencil
 Apple Remote	apple Remote
 Apple Store	apple store
 Apple TV	apple tv
-Apple TV 4K	apple tv
 Apple Watch	apple watch
 AppleCare	apple care
 AppleCare+	apple care
-AppleMyungjo	apple myungjo
 AppleScript	apple script
 AppleTalk	apple talk
 AppShopper	app shopper
 AptBackup	apt backup
-Aria2	ariaer
-Aria2GUI	ariaergui
 Arial Black	arial black
 Arial Narrow	arial narrow
 Arial Rounded	arial rounded
@@ -418,8 +420,7 @@ B 細胞	bi xi bao
 Baidu	bai du
 BBEdit	bb edit
 Better Rename	better rename
-BetterSnap Tool	better snap tool
-BetterTouchTool	better touch tool
+BetterTouchTool	btt
 BetterZip	better zip
 Beyond Compare	beyond compare
 Bitcron	bit cron
@@ -439,10 +440,10 @@ CallMaster	call master
 CarPlay	car play
 CCTV	cctv
 Chalkboard	chalk board
+Chrome	chrome
 Chalkduster	chalk duster
 CheatSheet	cheat sheet
 ChemBioDraw	chem bio draw
-CIA	cia
 Cisco IPSec	cisco ipsec
 CloudApp	cloud app
 CloudMagic	cloud magic
@@ -464,7 +465,6 @@ Cornerstone	corner stone
 Courier New	courier new
 Crimson Editor	crimson editor
 CSS	css
-CSS3	css san
 D-Link	dlink
 DailyCost	daily cost
 DaisyDisk	daisy disk
@@ -542,20 +542,19 @@ Gif Brewery	gif brewery
 GitHub Gist	github
 Gitter	gitter
 GNU	gnu
-Go2Shell	go er shell
-Go2Shell	go tu shell
+Go2Shell	go er
+Go2Shell	go tu
 GoagentX	go agentx
 GOM Player	gom player
 GoodReader	good reader
 Google	gu ge
-Google Chrome	google chrome
+Google Chrome	google
 Google Docs	google docs
 Google Drive	google drive
 Google Keep	google keep
 Google Maps	google maps
 Google Music	google music
 Google Play	google Play
-Google Sheets	google sheets
 Google Slides	google slides
 Great Ball	great ball
 GSW	gsw
@@ -574,7 +573,8 @@ HTC Vive	htc
 HTML5	html wu
 Hyper Potion	hyper potion
 iA Writer	ia writer
-iBooks Author	ibooks author
+iBooks Author	ibooks
+iBooks	ibooks
 iCloud	icloud
 iCloud Drive	icloud drive
 Icons8 App	icons ba
@@ -594,13 +594,7 @@ Intellij IDEA	intellij idea
 Internet Explorer	internet explorer
 intoLive	into live
 iOS	ios
-iOS 10	ios
-iOS 10	ios x
-iOS 11	ios
-iOS 11	ios shi yi
-iOS 12	ios
-iOS 9	ios
-iOS 9	ios jiu
+Ion-X	ionx
 iMac	imac
 iMac Pro	imac
 IP 地址	ip di zhi
@@ -609,47 +603,20 @@ IP 卡	ip ka
 iPad	ipad
 iPad Air	ipad
 iPad mini	ipad
-iPad mini	ipad mini
-iPad mini 4	ipad
-iPad mini 4	ipad mini
 iPad Pro	ipad
-iPad Pro	ipad pro
+iPadOS	ipad
 iPhone	iphone
-iPhone 4	iphone si
-iPhone 4s	iphone si
-iPhone 5	iphone wu
-iPhone 5c	iphone wu
-iPhone 5s	iphone wu
-iPhone 6	iphone liu
-iPhone 6 Plus	iphone liu
-iPhone 6s	iphone liu
-iPhone 6s Plus	iphone liu
-iPhone 7	iphone qi
-iPhone 7 Plus	iphone qi
-iPhone 8	iphone ba
-iPhone 8 Plus	iphone ba
-iPhone SE	iphone se
-iPhone X	iphone shi
-iPhone X	iphone ten
 iPod	ipod
 iPod classic	ipod
 iPod mini	ipod
-iPod mini	ipod mini
 iPod nano	ipod
-iPod nano	ipod nano
 iPod shuffle	ipod
-iPod shuffle	ipod shuffle
 iPod touch	ipod
-iPod touch	ipod touch
-iPod U2	ipod
-iPod U2	ipod u er
 IPTV	ip tv
-IPv4	ip
-IPv4	ip si
-IPv6	ip
-IPv6	ip liu
+IPv4	ipv
+IPv6	ipv
 iStat Menus	istat menus
-iThoughtsX	ithoughts x
+iThoughtsX	ithoughts
 iTunes	itunes
 iTunes Connect	itunes connect
 iTunes Match	itunes match
@@ -670,17 +637,13 @@ Karabiner	kara biner
 Keyboard Maestro	keyboard maestro
 Kindle Format	kindle
 Kindle Oasis	kindle
-Kindle Oasis	kindle oasis
 Kindle Paperwhite	kindle
-Kindle Paperwhite	kindle paper white
 Kindle Unlimited	kindle
-Kindle Unlimited	kindle unlimited
 Kindle Voyage	kindle
-Kindle Voyage	kindle voyage
 Klib	klib
-L2TP	lertp
+L2TP	lrtp
 LaTeXian	la te xian
-Launch Center Pro	launch center pro
+Launch Center Pro	lcp
 Launchpad	launch pad
 LibreOffice	libre office
 LightItalic	light italic
@@ -689,29 +652,25 @@ LiteBeam	lite beam
 Little Snitch	little snitch
 Live Cams Pro	live cams pro
 LiveReload	live reload
-Living Earth Clock	living earth clock
 Local Client	local client
 LockScreen	lock screen
 Lucky Egg	lucky egg
 Lure Module	lure module
 MAC 地址	mac di zhi
-Mac App Store	mac app store
+Mac App Store	mas
 Mac mini	mac mini
 Mac Pro	mac pro
 Mac Rumors	mac rumors
 MacAppDeals	mac app deals
 MacBook	mac book
 MacBook Air	macbook
-MacBook Air	macbook air
 MacBook Pro	macbook
-MacBook Pro	macbook pro
 macOS	macos
 macOS Mojave	macos
 macOS High Sierra	macos
-macOS Sierra	macos
+macOS Catalina	macos
 MacTips	mac tips
 Mactracker	mac tracker
-MacUpdate Desktop	mac update desktop
 Mad Catz	mad catz
 Magic Keyboard	magic keyboard
 Magic Mouse	magic mouse
@@ -727,7 +686,6 @@ MarkEditor	mark editor
 MarsEdit	mars edit
 Mathtype	math type
 MarginNote	margin note
-Mercury Browser Pro	mercury browser pro
 Metapad	meta pad
 Memoji	me moji
 Micro SD	micro sd
@@ -738,7 +696,7 @@ Sans Serif	sans serif
 Virtual PC	virtual pc
 Microsoft Word	microsoft word
 MindNode	mind node
-Mini DisplayPort	mini display port
+Mini DisplayPort	mdp
 Mishafi Gold	mishafi gold
 Mission Control	mission control
 Mobile Mouse	mobile mouse
@@ -772,21 +730,23 @@ Oculus VR	oculus
 OfficeSuite	office suite
 Olympics	olymipcs
 OmmWriter	omm writer
-OmniFocus	omni focus
-OmniGraffle	omni graffle
-OmniOutliner	omni outliner
+OmniFocus	omnif
+OmniGraffle	omnig
+OmniOutliner	omnio
 OmniPlan	omni plan
 OneDrive	one drive
 OneNote	one note
-OOP	oop
 OpenVPN	open vpn
 Oracle Database	oracle database
+LTPO OLED	oled
+OLED	oled
 OS X	osx
 OS X Server	osx
 OS X Server	osx server
 Outlook Express	outlook express
 PaintCode	paint code
 Parallels Desktop	parallels desktop
+Parallels Desktop	pd
 PC-cillin	pc cillin
 Perl	perl
 Photo Booth	photo booth
@@ -806,7 +766,6 @@ Pokémon GO	pokemon
 Pokémon GO	pokemon go
 Pokétop	poketop
 PopClip	pop clip
-POS 機	pos ji
 POWER UP	power up
 PowerBeam	power beam
 PowerPack	power pack
@@ -820,16 +779,6 @@ PTSerif	pt serif
 Public Beta	public beta
 PyCharm	pycharm
 PDF Expert	pdf expert
-Q 幣	qq bi
-QCon	qcon
-QNAP NAS	qnap nas
-QQ 號	qq hao
-QQ 號碼	qq hao ma
-QQ 會員	qq hui yuan
-QQ 空間	qq kong jian
-QQ 羣	qq qun
-QQ 旋風	qq xuan feng
-QQ 郵箱	qq you xiang
 QuickTime Player	quick time player
 RAM	ram
 Razz Berry	razz berry
@@ -847,10 +796,10 @@ RobotoSlab	roboto slab
 RocketDish	rocket dish
 ROM	rom
 Ruby on Rails	ror
-Ruby on Rails	ruby on rails
 RubyMine	ruby mine
 Runtastic Pro	run tastic pro
 Sabrent USB	sabrent usb
+Safari	safari
 Safari View Controller	safari view controller
 SaneDesk	sane desk
 SAP	sap
@@ -862,11 +811,8 @@ ScreenFlow	screen flow
 Screens VNC	screens vnc
 SecureCRT	secure crt
 Semibold	semi bold
-SemiboldItalic	semi bold italic
-SF-UI-Display	sf ui display
-SF-UI-Text	sf ui text
 SFMono	sf mono
-Shadowsocks	shadow socks
+Shadowsocks	ss
 SignPainter	sign painter
 SIM	sim
 eSIM	esim
@@ -887,7 +833,7 @@ Smartisan OS	smartisan
 Snapselect	snap select
 SnellRoundhand	snell round hand
 Softimage	soft image
-Software Development Kit	software development kit
+Software Development Kit	sdk
 Solar Walk	solar walk
 Source Insight	source insight
 SourceHanSans	source han sans
@@ -896,7 +842,7 @@ Sparkbox	spark box
 Specialist	specia list
 Speedtest	speed test
 Splashtop	splash top
-Split View	split view 
+Split View	split view
 Spotlight	spot light
 SQL Server	sql server
 Squirrel	shu xu guan
@@ -908,6 +854,7 @@ StockWatch	stock watch
 Sublime Text	sublime text
 Super Potion	super potion
 SuperClarendon	super clarendon
+Surge	surge
 Surge iOS	surge
 Surge iOS	surge ios
 Surge Mac	surge
@@ -927,8 +874,8 @@ TeamViewer	team viewer
 TechWeb	tech web
 TED	ted
 TeeVee	tee vee
-Telegram	tele gram
-Tencent	ten cent
+Telegram	telegram
+Tencent	tencent
 TestFlight	test flight
 Texshop	tex shop
 Textastic	text astic
@@ -951,12 +898,10 @@ Touch ID	touch id
 TP-LINK	tp link
 Trebuchet MS	trebuchet ms
 True Tone	true tone
-Tupac	tpac
 Tupac	tupac
 Turbo Boost	turbo boost
 Tuxera Disk Manager	tuxera
-Tuxera NTFS	tuxera
-tvOS	tv os
+tvOS	tvos
 Tweetbot	tweet bot
 Twist Plus	twist plus
 Ubuntu	ubuntu
@@ -989,8 +934,7 @@ Wi-Fi	wi fi
 WiFi	wifi
 WiFi Explorer	wifi explorer
 WiFi Scanner	wifi scanner
-Wikipedia	wiki pedia
-Wikipedia	wikipedia
+Wikipedia	wiki
 Window Tidy	window tidy
 Windows Live Mail	windows live
 Windows Live Mail	windows live mail
@@ -1011,7 +955,6 @@ World Wide Web	www
 WPA2	wpa
 WPS Office	wps office
 Writer Pro	writer pro
-WWW	www
 WWYD	wwyd
 X-Ray	xray
 Xbox One	xbox
@@ -1028,10 +971,7 @@ Zhihu	zhi hu
 β 射線	bei ta she xian
 γ 刀	ga ma dao
 γ 射線	ga ma she xian
-	apple
- MUSIC	apple
  MUSIC	apple music
- PAY	apple
  PAY	apple pay
  tv 4K	apple tv
  WATCH	apple watch

@@ -25,6 +25,5 @@ import_tables:
   - wubi86
   - wubi.basic
   - wubi.basic.ex
-  - wubi.temp
-  - wubi.cn.en
+  - wubi.coding
   

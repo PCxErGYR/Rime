@@ -1,15 +1,15 @@
 __build_info:
-  rime_version: 1.4.0
+  rime_version: 1.7.3
   timestamps:
-    default: 1548171029
-    default.custom: 1552404103
-    key_bindings: 1548171029
+    default: 1613228859
+    default.custom: 1613742306
+    key_bindings: 1612241289
     key_bindings.custom: 0
-    luna_pinyin_simp.custom: 1552186041
-    luna_pinyin_simp.schema: 1548171029
-    punctuation: 1548171029
+    luna_pinyin_simp.custom: 1612241289
+    luna_pinyin_simp.schema: 1612241289
+    punctuation: 1612241289
     punctuation.custom: 0
-    symbols: 1552186041
+    symbols: 1612241289
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -49,11 +49,13 @@ engine:
     - "table_translator@custom_phrase"
     - script_translator
     - "table_translator@english"
+    - "lua_translator@date_translator"
+    - "lua_translator@time_translator"
 english:
   dictionary: easy_en
   enable_completion: false
   enable_sentence: false
-  initial_quality: "-2"
+  initial_quality: "-4"
   spelling_hints: 9
 key_binder:
   bindings:
@@ -91,7 +93,7 @@ key_binder:
     - {accept: "Control+Shift+dollar", toggle: zh_simp, when: always}
   import_preset: default
 menu:
-  page_size: 8
+  page_size: 6
 punctuator:
   full_shape:
     " ": {commit: "　"}
@@ -379,7 +381,7 @@ schema:
     
   name: "朙月拼音·简化字"
   schema_id: luna_pinyin_simp
-  version: 0.22.minimal
+  version: 0.22
 simplifier:
   option_name: zh_simp
 speller:
@@ -412,8 +414,6 @@ switches:
   - name: zh_simp
     reset: 1
     states: ["漢字", "汉字"]
-  - name: ascii_punct
-    states: ["。，", "．，"]
   - options: [utf8, gbk, gb2312]
     reset: 0
     states: ["UTF-8", GBK, GB2312]
@@ -422,6 +422,7 @@ switches:
     states: ["🈚️️︎", "🈶️️️"]
 translator:
   dictionary: luna_pinyin.extended
+  enable_correction: true
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"

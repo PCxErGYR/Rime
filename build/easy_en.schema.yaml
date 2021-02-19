@@ -1,13 +1,13 @@
 __build_info:
-  rime_version: 1.4.0
+  rime_version: 1.7.3
   timestamps:
-    default: 1548171029
-    default.custom: 1552404103
+    default: 1613228859
+    default.custom: 1613742306
     easy_en.custom: 0
-    easy_en.schema: 1552186041
-    key_bindings: 1548171029
+    easy_en.schema: 1612241289
+    key_bindings: 1612241289
     key_bindings.custom: 0
-    punctuation: 1548171029
+    punctuation: 1612241289
     punctuation.custom: 0
 engine:
   filters:
@@ -64,20 +64,20 @@ key_binder:
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
   import_preset: default
 menu:
-  page_size: 8
+  page_size: 6
 punctuator:
   full_shape:
     " ": {commit: "　"}
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
     "#": ["＃", "⌘"]
-    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
-    "%": ["％", "°", "℃"]
+    "$": "￥"
+    "%": "％"
     "&": "＆"
     "'": {pair: ["‘", "’"]}
     "(": "（"
     ")": "）"
-    "*": ["＊", "·", "・", "×", "※", "❂"]
+    "*": ["＊", "・", "×"]
     "+": "＋"
     ",": {commit: "，"}
     "-": "－"
@@ -89,7 +89,7 @@ punctuator:
     "=": "＝"
     ">": ["》", "〉", "»", "›"]
     "?": {commit: "？"}
-    "@": ["＠", "☯"]
+    "@": "＠"
     "[": ["「", "【", "〔", "［"]
     "\\": ["、", "＼"]
     "]": ["」", "】", "〕", "］"]
@@ -104,35 +104,35 @@ punctuator:
     "!": {commit: "！"}
     "\"": {pair: ["“", "”"]}
     "#": "#"
-    "$": ["￥", "$", "€", "£", "¥", "¢", "¤"]
+    "$": "￥"
     "%": ["%", "％", "°", "℃"]
     "&": "&"
     "'": {pair: ["‘", "’"]}
     "(": "（"
     ")": "）"
-    "*": ["*", "＊", "·", "・", "×", "※", "❂"]
+    "*": ["·", "×"]
     "+": "+"
     ",": {commit: "，"}
     "-": "-"
     .: {commit: "。"}
-    "/": ["、", "/", "／", "÷"]
+    "/": {commit: "、"}
     ":": {commit: "："}
     ";": {commit: "；"}
-    "<": ["《", "〈", "«", "‹"]
+    "<": {commit: "《"}
     "=": "="
-    ">": ["》", "〉", "»", "›"]
+    ">": {commit: "》"}
     "?": {commit: "？"}
     "@": "@"
-    "[": ["「", "【", "〔", "［"]
-    "\\": ["、", "\\", "＼"]
-    "]": ["」", "】", "〕", "］"]
+    "[": {commit: "【"}
+    "\\": {commit: "、"}
+    "]": {commit: "】"}
     "^": {commit: "……"}
     _: "——"
     "`": "`"
-    "{": ["『", "〖", "｛"]
-    "|": ["·", "|", "｜", "§", "¦"]
-    "}": ["』", "〗", "｝"]
-    "~": ["~", "～"]
+    "{": "「"
+    "|": "|"
+    "}": "」"
+    "~": "~"
   import_preset: default
 recognizer:
   import_preset: default
