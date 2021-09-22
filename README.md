@@ -14,7 +14,7 @@
 1. 下载鼠须管
 2. 安装
 ```sh
-git clone https://github.com/RVK4NP3N6/Rime.git /Users/用户名/Library/Rime
+git clone https://github.com/kunpehx/Rime.git /Users/${whoami}/Library/Rime
 ```
 ## 特点(feature)
 1. 支持拼音、五笔86、五笔拼音、数字(转人民币的填写)
